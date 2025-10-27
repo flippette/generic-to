@@ -1,0 +1,11 @@
+[package]
+name = "to"
+version = "1.0.0"
+edition = "2024"
+license = "Unlicense"
+authors = ["flippette <me@flippo.cc>"]
+description = "method-generic conversion traits"
+
+[features]
+default = []
+nightly = []
