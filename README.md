@@ -1,11 +1,11 @@
-# `to`
+# `generic-to`
 
 method-generic conversion traits.
 
 # example
 
 ```rust
-use to::*;
+use generic_to::*;
 
 // instead of this
 let one = <u16 as Into<u32>>::into(1);
@@ -22,7 +22,7 @@ traits can also be used in `const` contexts.
 
 # #[cfg(feature = "nightly")]
 # mod nightly {
-use to::*;
+use generic_to::*;
 
 // this is available now
 const ONE: u32 = 1_u16.to();

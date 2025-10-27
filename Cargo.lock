@@ -3,5 +3,5 @@
 version = 4
 
 [[package]]
-name = "to"
+name = "generic-to"
 version = "1.0.0"
