@@ -5,6 +5,7 @@ edition = "2024"
 license = "Unlicense"
 authors = ["flippette <me@flippo.cc>"]
 description = "method-generic conversion traits"
+repository = "https://github.com/flippette/generic-to"
 
 [features]
 default = []
